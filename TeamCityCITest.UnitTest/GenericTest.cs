@@ -13,11 +13,5 @@ namespace TeamCityCITest.UnitTest
         {
             Assert.AreEqual(valuesService.Get(), "Stefano");
         }
-
-        [Test]
-        public void FailTest()
-        {
-            Assert.AreEqual(valuesService.Get(), "Stefano1");
-        }
     }
 }
